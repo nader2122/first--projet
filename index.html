@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping cart</title>
+  </head>
+  <body>
+    
+
+    <nav class="navbar navbar-light bg-light" id="navs">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img src="images/profil.jpg" alt="" width="50" height="50" class="d-inline-block align-text-center">
+            TARAJI SHOP
+          </a>
+          <div class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/tarajistoreofficiel/" target="_blank"><i class="fas fa-male fa-2x"></i>Mekacha5</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/tarajistoreofficiel/" target="_blank"><i class="fas fa-female fa-2x"></i>Mekach5a</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/tarajistoreofficiel/" target="_blank"><i class="fas fa-baby fa-2x"></i>Welidha</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" id="print"><i class="fas fa-cart-shopping fa-2x"></i></a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </nav>
+    
+
+<div class="container">
+
+    <main>
+<!--row card -->
+
+
+<div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 cards">
+
+        <div class="card">
+            <img src="images/tshirt3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Article 1</h4>
+              <p class="card-text">T-shirt pour les professionnelle fans.</p>
+            
+              <div  >
+
+                    <h6 >Prix: <b class="prix-uni">75</b> dt</h6>
+
+                </div>
+
+     <div class="row">
+
+            <div class="col-4" >
+              <button type="button" class="btn btn-dark plus" ><i class="fas fa-plus"></i></button>
+           </div>
+
+           <div class="col-4" >
+            <p class="nb-article">0</p>
+           </div>
+
+            <div class="col-4" >
+              <button type="button" class="btn btn-dark moins" ><i class="fas fa-minus"></i></button>
+              </div>
+                        
+    </div>
+  
+<div class="row" id="listee">
+   
+    <div class="col-12" >
+     <span>Total:<h2 class="somme">0</h2></span>
+    </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <i class="far fa-thumbs-up fa-2x fa-flash" onclick="likez()" id="like" style="color: yellow;"></i>
+  </div>
+  <div class="col-6">
+  <i class="far fa-thumbs-down fa-2x fa-flash" onclick="likez()" id="dese" style="color: red;"></i>
+  </div>
+  
+</div>
+            </div>
+          </div>
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-12 cards">
+
+      <div class="card">
+          <img src="images/tshirt5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title">Article 2</h4>
+            <p class="card-text">T-shirt nouvelle collection.</p>
+          
+            <div  >
+
+                  <h6 >Prix: <b class="prix-unie">29.9</b> dt</h6>
+
+              </div>
+
+   <div class="row">
+
+          <div class="col-4" >
+            <button type="button" class="btn btn-dark pluse" ><i class="fas fa-plus pluse"></i></button>
+         </div>
+
+         <div class="col-4" >
+          <p class="nb-articlee">0</p>
+         </div>
+
+          <div class="col-4" >
+            <button type="button" class="btn btn-dark moinse" ><i class="fas fa-minus moise"></i></button>
+            </div>
+                      
+  </div>
+
+<div class="row" id="listee">
+ 
+  <div class="col-12" >
+   <span>Total:<h2 class="sommee">0</h2></span>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <i class="far fa-thumbs-up fa-2x fa-flash" onclick="likes()" id="lik" style="color: yellow;"></i>
+  </div>
+  <div class="col-6">
+    <i class="far fa-thumbs-down fa-2x fa-flash" onclick="likes()" id="des" style="color: red;"></i>
+  </div>
+  
+</div>
+          </div>
+        </div>
+  </div>
+
+
+
+<div class="col-lg-4 col-md-4 col-sm-12" id="tables">
+  <h2 style="background-color: chartreuse;">Totale de choix d'articles <hr></h2>
+  <div class="card">
+    <table class="table table-striped bg-light">
+      <tr>
+        <th>Choix d'article</th>
+        <th>nombre d'article</th>
+        <th>total par article</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td class="nb-art"></td>
+        <td class="somme-art"></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td class="nbe-art"></td>
+        <td class="sommee-art"></td>
+      </tr>
+      
+    </table>
+    <h2>Total facture en dt: <h3 class="facture"></h3></h2>
+  </div>
+  
+</div>
+
+
+
+</div>
+
+
+</main>
+</div>
+
+
+
+<footer id="foot">
+  <div class="card text-center w-75 text-light bg-dark ">
+ 
+    <div class="card-body">
+      <h3 class="card-title text-muted">Pour Plus d'info Visiter notre Page</h3>
+      
+      <a href="https://www.facebook.com/tarajistoreofficiel/" target="_blank" class="btn btn-outline-warning btn-outline-warning">Bienvenue</a>
+    </div>
+    <div class="card-footer text-muted">
+      Copyright &copy; 2021
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+    <script src="achat.js"></script>
+    
+  </body>
+</html>
